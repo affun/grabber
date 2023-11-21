@@ -1,0 +1,77 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1d1d1d;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.container-l {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  min-width: 500px;
+  padding: 4rem 2rem;
+  margin-bottom: 8rem;
+  border-radius: 4rem;
+  background: #3d3d3d;
+}
+
+.container-l .cont {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-l p {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.boo h1 {
+  margin-bottom: 4rem;
+}
+
+.boo input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  border: none;
+  background: #4f4f4f;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.boo button {
+  padding: 10px;
+  background-color: #1d1d1d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.boo button:hover {
+  background-color: #2a2a2a;
+}
+
+.bam ul {
+  text-align: left;
+}
